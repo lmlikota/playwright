@@ -1,0 +1,698 @@
+{
+  "config": {
+    "configFile": "D:\\playwright\\playwright.config.ts",
+    "rootDir": "D:/playwright/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 2
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "html",
+        {
+          "outputFolder": "./test-artifacts/html-report"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "./test-artifacts/results/test-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "D:/playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "D:/playwright/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "D:/playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "D:/playwright/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.48.1",
+    "workers": 2,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "netlify.spec.ts",
+      "file": "netlify.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Lead Capture Form Validation",
+          "file": "netlify.spec.ts",
+          "line": 6,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Newsletter form should be present and functional",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 18553,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-05-12T10:08:05.541Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\playwright\\test-results\\netlify-Lead-Capture-Form--2f73a-d-be-present-and-functional-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "D:\\playwright\\test-results\\netlify-Lead-Capture-Form--2f73a-d-be-present-and-functional-chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f5f1f862daf502735d8e-de62d3df7739bd3cddee",
+              "file": "netlify.spec.ts",
+              "line": 16,
+              "column": 5
+            },
+            {
+              "title": "Newsletter form with invalid email",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 17155,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-05-12T10:08:06.295Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\playwright\\test-results\\netlify-Lead-Capture-Form--18b05-ter-form-with-invalid-email-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "D:\\playwright\\test-results\\netlify-Lead-Capture-Form--18b05-ter-form-with-invalid-email-chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f5f1f862daf502735d8e-229d33ecd3fd73f0f4cc",
+              "file": "netlify.spec.ts",
+              "line": 33,
+              "column": 5
+            },
+            {
+              "title": "Newsletter form should be present and functional",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 19806,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-05-12T10:08:35.144Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\playwright\\test-results\\netlify-Lead-Capture-Form--2f73a-d-be-present-and-functional-firefox\\test-finished-1.png"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "D:\\playwright\\test-results\\netlify-Lead-Capture-Form--2f73a-d-be-present-and-functional-firefox\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f5f1f862daf502735d8e-b581999fc3211ea10b15",
+              "file": "netlify.spec.ts",
+              "line": 16,
+              "column": 5
+            },
+            {
+              "title": "Newsletter form with invalid email",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 22168,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-05-12T10:09:01.672Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\playwright\\test-results\\netlify-Lead-Capture-Form--18b05-ter-form-with-invalid-email-firefox\\test-finished-1.png"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "D:\\playwright\\test-results\\netlify-Lead-Capture-Form--18b05-ter-form-with-invalid-email-firefox\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f5f1f862daf502735d8e-6f86c39f0acd255481da",
+              "file": "netlify.spec.ts",
+              "line": 33,
+              "column": 5
+            }
+          ]
+        },
+        {
+          "title": "Sitemap and Crawlability Verification",
+          "file": "netlify.spec.ts",
+          "line": 51,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Verify that sitemap.xml exists",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 1471,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-05-12T10:08:25.593Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\playwright\\test-results\\netlify-Sitemap-and-Crawla-497ca-ify-that-sitemap-xml-exists-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "D:\\playwright\\test-results\\netlify-Sitemap-and-Crawla-497ca-ify-that-sitemap-xml-exists-chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f5f1f862daf502735d8e-efe77ccd448389e716b8",
+              "file": "netlify.spec.ts",
+              "line": 53,
+              "column": 3
+            },
+            {
+              "title": "Verify that important pages are crawlable as per robots.txt",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 1302,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-05-12T10:08:25.719Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\playwright\\test-results\\netlify-Sitemap-and-Crawla-3f8fe-crawlable-as-per-robots-txt-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "D:\\playwright\\test-results\\netlify-Sitemap-and-Crawla-3f8fe-crawlable-as-per-robots-txt-chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f5f1f862daf502735d8e-cb4ff934025af1117013",
+              "file": "netlify.spec.ts",
+              "line": 60,
+              "column": 3
+            },
+            {
+              "title": "Sitemap accessibility check",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 164,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-05-12T10:08:27.079Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "D:\\playwright\\test-results\\netlify-Sitemap-and-Crawla-3b8e0-Sitemap-accessibility-check-chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f5f1f862daf502735d8e-7a1f979a0b1cfc4cffb7",
+              "file": "netlify.spec.ts",
+              "line": 81,
+              "column": 3
+            },
+            {
+              "title": "Verify basic site crawlability",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 512,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-05-12T10:08:27.127Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "D:\\playwright\\test-results\\netlify-Sitemap-and-Crawla-b2c69-ify-basic-site-crawlability-chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f5f1f862daf502735d8e-fc03c9e2d81868216671",
+              "file": "netlify.spec.ts",
+              "line": 96,
+              "column": 3
+            },
+            {
+              "title": "Verify that sitemap.xml exists",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 916,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-05-12T10:08:58.637Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\playwright\\test-results\\netlify-Sitemap-and-Crawla-497ca-ify-that-sitemap-xml-exists-firefox\\test-finished-1.png"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "D:\\playwright\\test-results\\netlify-Sitemap-and-Crawla-497ca-ify-that-sitemap-xml-exists-firefox\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f5f1f862daf502735d8e-1d11b3e378d11a6e07d5",
+              "file": "netlify.spec.ts",
+              "line": 53,
+              "column": 3
+            },
+            {
+              "title": "Verify that important pages are crawlable as per robots.txt",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 1884,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-05-12T10:08:59.600Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\playwright\\test-results\\netlify-Sitemap-and-Crawla-3f8fe-crawlable-as-per-robots-txt-firefox\\test-finished-1.png"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "D:\\playwright\\test-results\\netlify-Sitemap-and-Crawla-3f8fe-crawlable-as-per-robots-txt-firefox\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f5f1f862daf502735d8e-f23f9464c81c58594de9",
+              "file": "netlify.spec.ts",
+              "line": 60,
+              "column": 3
+            },
+            {
+              "title": "Sitemap accessibility check",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 190,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-05-12T10:09:01.519Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "D:\\playwright\\test-results\\netlify-Sitemap-and-Crawla-3b8e0-Sitemap-accessibility-check-firefox\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f5f1f862daf502735d8e-7e5907efd743a0b26513",
+              "file": "netlify.spec.ts",
+              "line": 81,
+              "column": 3
+            },
+            {
+              "title": "Verify basic site crawlability",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 415,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-05-12T10:09:01.758Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "D:\\playwright\\test-results\\netlify-Sitemap-and-Crawla-b2c69-ify-basic-site-crawlability-firefox\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f5f1f862daf502735d8e-6b23c75adf4e10112757",
+              "file": "netlify.spec.ts",
+              "line": 96,
+              "column": 3
+            }
+          ]
+        },
+        {
+          "title": "Link Verification",
+          "file": "netlify.spec.ts",
+          "line": 118,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Check that all links on the homepage do not lead to 404",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 26448,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-05-12T10:08:27.303Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\playwright\\test-results\\netlify-Link-Verification--ae89e-homepage-do-not-lead-to-404-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "D:\\playwright\\test-results\\netlify-Link-Verification--ae89e-homepage-do-not-lead-to-404-chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f5f1f862daf502735d8e-283b1724376a409027dc",
+              "file": "netlify.spec.ts",
+              "line": 119,
+              "column": 5
+            },
+            {
+              "title": "Check that all links on the homepage do not lead to 404",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 23026,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-05-12T10:09:02.222Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\playwright\\test-results\\netlify-Link-Verification--ae89e-homepage-do-not-lead-to-404-firefox\\test-finished-1.png"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "D:\\playwright\\test-results\\netlify-Link-Verification--ae89e-homepage-do-not-lead-to-404-firefox\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f5f1f862daf502735d8e-93a115cf6e9e469dbd28",
+              "file": "netlify.spec.ts",
+              "line": 119,
+              "column": 5
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-05-12T10:08:03.037Z",
+    "duration": 88637.537,
+    "expected": 14,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
