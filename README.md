@@ -142,4 +142,4 @@ use: {
 }
 
 ```
-Other setting
+
